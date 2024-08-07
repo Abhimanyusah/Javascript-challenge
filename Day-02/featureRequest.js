@@ -25,9 +25,9 @@ let a = true;
 let b = false;
 
 console.log(`Logical AND (a && b): ${a && b}`);
-console.log(`Logical OR (a || b): ${a || b}`);
-console.log(`Logical NOT (!a): ${!a}`);
-console.log(`Logical NOT (!b): ${!b}`);
+// console.log(`Logical OR (a || b): ${a || b}`);
+// console.log(`Logical NOT (!a): ${!a}`);
+// console.log(`Logical NOT (!b): ${!b}`);
 
 /*
 Output:-
@@ -65,7 +65,7 @@ x !== y: true
 
 //-----Ternary operators----//
 
-let number = -10;
+let number = -11;
 
 let result = (number >= 0) ? "The number is positive" : "The number is negative";
 console.log(result);
